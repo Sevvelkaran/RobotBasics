@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.13.3 on darwin)" generated="2025-05-15T12:56:16.343235" rpa="false" schemaversion="5">
+<suite id="s1" name="Tests" source="/Users/sevvelkaranpalanivetrivel/Desktop/Expleo_Training /ROBOT_BASICS/Tests">
+<suite id="s1-s1" name="Test Demo" source="/Users/sevvelkaranpalanivetrivel/Desktop/Expleo_Training /ROBOT_BASICS/Tests/test_demo.robot">
+<test id="s1-s1-t1" name="Login with correct Username and Password" line="6">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-05-15T12:56:16.926844" level="INFO">Opening browser 'headlessfirefox' to base url 'https://the-internet.herokuapp.com/login'.</msg>
+<arg>url=https://the-internet.herokuapp.com/login</arg>
+<arg>browser=headlessfirefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-05-15T12:56:16.926489" elapsed="9.056923"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-05-15T12:56:25.988039" level="INFO">Typing text 'tomsmith' into text field 'username'.</msg>
+<arg>username</arg>
+<arg>tomsmith</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-15T12:56:25.987156" elapsed="0.118300"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-05-15T12:56:26.106295" level="INFO">Typing text 'SuperSecretPassword!' into text field 'password'.</msg>
+<arg>password</arg>
+<arg>SuperSecretPassword!</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-15T12:56:26.105794" elapsed="0.028609"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-05-15T12:56:26.136003" level="INFO">Clicking button 'class:radius'.</msg>
+<arg>class:radius</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-15T12:56:26.135371" elapsed="0.793632"/>
+</kw>
+<kw name="Element Should Contain" owner="SeleniumLibrary">
+<msg time="2025-05-15T12:56:26.949432" level="INFO">Element 'id=flash' contains text 'You logged into a secure area!'.</msg>
+<arg>id=flash</arg>
+<arg>You logged into a secure area!</arg>
+<doc>Verifies that element ``locator`` contains text ``expected``.</doc>
+<status status="PASS" start="2025-05-15T12:56:26.929357" elapsed="0.020254"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2025-05-15T12:56:26.950442" level="INFO">Clicking link 'Logout'.</msg>
+<arg>Logout</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-15T12:56:26.950016" elapsed="0.712922"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-05-15T12:56:27.663399" elapsed="1.095628"/>
+</kw>
+<status status="PASS" start="2025-05-15T12:56:16.925065" elapsed="11.834386"/>
+</test>
+<status status="PASS" start="2025-05-15T12:56:16.428293" elapsed="12.331892"/>
+</suite>
+<status status="PASS" start="2025-05-15T12:56:16.346647" elapsed="12.414616"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Tests" id="s1" pass="1" fail="0" skip="0">Tests</stat>
+<stat name="Test Demo" id="s1-s1" pass="1" fail="0" skip="0">Tests.Test Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
