@@ -1,154 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.13.3 on darwin)" generated="2025-05-16T15:08:14.031431" rpa="false" schemaversion="5">
-<suite id="s1" name="test windowHandle" source="/Users/sevvelkaranpalanivetrivel/Desktop/Expleo_Training /ROBOT_BASICS/Tests/test_windowHandle.robot">
-<test id="s1-t1" name="Handling multiple windows" line="6">
-<kw name="open the browser with url">
-<kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-05-16T15:08:14.578996" level="INFO">Opening browser 'chrome' to base url 'https://demo.automationtesting.in/Windows.html'.</msg>
-<arg>https://demo.automationtesting.in/Windows.html</arg>
-<arg>browser=chrome</arg>
-<doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-05-16T15:08:14.578710" elapsed="5.221686"/>
+<robot generator="Robot 7.2.2 (Python 3.13.3 on darwin)" generated="2025-05-16T17:06:39.314900" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Orangehrm" source="/Users/sevvelkaranpalanivetrivel/Desktop/Expleo_Training /ROBOT_BASICS/Tests/test_orangehrm.robot">
+<test id="s1-t1" name="Validate Unsuccessfull Login" line="11">
+<kw name="Open the browser with URL" owner="Resource">
+<kw name="Create Webdriver" owner="SeleniumLibrary">
+<msg time="2025-05-16T17:06:39.567139" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<arg>Chrome</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<status status="PASS" start="2025-05-16T17:06:39.566930" elapsed="5.718740"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2025-05-16T17:06:45.287999" level="INFO">Opening url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'</msg>
+<arg>${url}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2025-05-16T17:06:45.286587" elapsed="1.943618"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2025-05-16T15:08:19.801570" elapsed="4.171578"/>
+<status status="PASS" start="2025-05-16T17:06:47.230663" elapsed="3.179058"/>
 </kw>
-<kw name="Set Browser Implicit Wait" owner="SeleniumLibrary">
+<kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
 <arg>5</arg>
 <doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="PASS" start="2025-05-16T15:08:23.973519" elapsed="0.002239"/>
+<status status="PASS" start="2025-05-16T17:06:50.410077" elapsed="0.002698"/>
 </kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-16T15:08:28.977531" level="INFO">Slept 5 seconds.</msg>
-<arg>5s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-16T15:08:23.976186" elapsed="5.001711"/>
+<status status="PASS" start="2025-05-16T17:06:39.566048" elapsed="10.846977"/>
 </kw>
-<status status="PASS" start="2025-05-16T15:08:14.577805" elapsed="14.400883"/>
+<kw name="Fill the login form">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-05-16T17:06:50.415076" level="INFO">Typing text '45678' into text field 'css:input[name=username]'.</msg>
+<arg>css:input[name=username]</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-16T17:06:50.414368" elapsed="0.982824"/>
 </kw>
-<kw name="Select the button to switch to child window">
-<kw name="Get Window Handles" owner="SeleniumLibrary">
-<msg time="2025-05-16T15:08:28.995388" level="INFO">${ParentWindow} = ['8B47B7117BAC0B01EC85A9503D0FD9A9']</msg>
-<var>${ParentWindow}</var>
-<doc>Returns all child window handles of the selected browser as a list.</doc>
-<status status="PASS" start="2025-05-16T15:08:28.984383" elapsed="0.011364"/>
-</kw>
-<kw name="Click Element" owner="SeleniumLibrary">
-<msg time="2025-05-16T15:08:29.000174" level="INFO">Clicking element 'xpath=//div[@class='tabpane pullleft']/ul/li[2]/a'.</msg>
-<arg>xpath=//div[@class='tabpane pullleft']/ul/li[2]/a</arg>
-<doc>Click the element identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-16T15:08:28.996246" elapsed="0.115795"/>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2025-05-16T17:06:51.397951" level="INFO">Typing password into text field 'css:input[name=password]'.</msg>
+<msg time="2025-05-16T17:06:51.456507" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>css:input[name=password]</arg>
+<arg>${password}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-16T17:06:51.397487" elapsed="0.133789"/>
 </kw>
 <kw name="Click Button" owner="SeleniumLibrary">
-<msg time="2025-05-16T15:08:29.112769" level="INFO">Clicking button 'css:.btn-primary'.</msg>
-<arg>css:.btn-primary</arg>
+<msg time="2025-05-16T17:06:51.531749" level="INFO">Clicking button 'class:orangehrm-login-button'.</msg>
+<arg>class:orangehrm-login-button</arg>
 <doc>Clicks the button identified by ``locator``.</doc>
-<status status="PASS" start="2025-05-16T15:08:29.112311" elapsed="0.343880"/>
+<status status="PASS" start="2025-05-16T17:06:51.531515" elapsed="0.123418"/>
 </kw>
-<kw name="Get Window Handles" owner="SeleniumLibrary">
-<msg time="2025-05-16T15:08:29.471031" level="INFO">${Windows} = ['8B47B7117BAC0B01EC85A9503D0FD9A9', 'A8006117C02332BEB4B2E51758AB3778']</msg>
-<var>${Windows}</var>
-<doc>Returns all child window handles of the selected browser as a list.</doc>
-<status status="PASS" start="2025-05-16T15:08:29.456554" elapsed="0.014563"/>
+<arg>${invalid_password}</arg>
+<arg>${invalid_password}</arg>
+<status status="PASS" start="2025-05-16T17:06:50.413656" elapsed="1.241572"/>
 </kw>
-<for flavor="IN">
-<iter>
-<kw name="Switch Window" owner="SeleniumLibrary">
-<doc>Switches to browser window matching ``locator``.</doc>
-<status status="PASS" start="2025-05-16T15:08:29.472485" elapsed="0.016229"/>
+<kw name="verify error message on login page">
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<msg time="2025-05-16T17:06:51.656440" level="INFO">Verifying element 'css:.oxd-alert-content--error' contains exact text 'Invalid credentials'.</msg>
+<arg>${login_error_Message}</arg>
+<arg>Invalid credentials</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="PASS" start="2025-05-16T17:06:51.656170" elapsed="1.230371"/>
 </kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>${window}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-05-16T15:08:29.489242" elapsed="0.001079"/>
+<status status="PASS" start="2025-05-16T17:06:51.655809" elapsed="1.231377"/>
 </kw>
-<var name="${window}">['8B47B7117BAC0B01EC85A9503D0FD9A9', 'A8006117C02332BEB4B2E51758AB3778']</var>
-<status status="PASS" start="2025-05-16T15:08:29.472150" elapsed="0.018374"/>
-</iter>
-<var>${window}</var>
-<value>${Windows}</value>
-<status status="PASS" start="2025-05-16T15:08:29.471485" elapsed="0.019294"/>
-</for>
-<kw name="Get Length" owner="BuiltIn">
-<msg time="2025-05-16T15:08:29.491746" level="INFO">Length is 2.</msg>
-<msg time="2025-05-16T15:08:29.491994" level="INFO">${count} = 2</msg>
-<var>${count}</var>
-<arg>${Windows}</arg>
-<doc>Returns and logs the length of the given item as an integer.</doc>
-<status status="PASS" start="2025-05-16T15:08:29.491306" elapsed="0.000760"/>
-</kw>
-<kw name="Log To Console" owner="BuiltIn">
-<arg>${count}</arg>
-<doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-05-16T15:08:29.494465" elapsed="0.001073"/>
-</kw>
-<status status="PASS" start="2025-05-16T15:08:28.982090" elapsed="0.513754"/>
-</kw>
-<kw name="verify the child window is opened">
-<kw name="Switch Window" owner="SeleniumLibrary">
-<arg>NEW</arg>
-<doc>Switches to browser window matching ``locator``.</doc>
-<status status="PASS" start="2025-05-16T15:08:29.498209" elapsed="0.064468"/>
-</kw>
-<kw name="Page Should Contain" owner="SeleniumLibrary">
-<msg time="2025-05-16T15:08:31.743558" level="INFO">Current page contains text 'Selenium automates browsers'.</msg>
-<arg>Selenium automates browsers</arg>
-<doc>Verifies that current page contains ``text``.</doc>
-<status status="PASS" start="2025-05-16T15:08:29.563740" elapsed="2.180209"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-16T15:08:36.745226" level="INFO">Slept 5 seconds.</msg>
-<arg>5s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-16T15:08:31.744446" elapsed="5.000981"/>
-</kw>
-<status status="PASS" start="2025-05-16T15:08:29.496530" elapsed="7.249045"/>
-</kw>
-<kw name="verify teh user is switched to parent window">
-<kw name="Switch Window" owner="SeleniumLibrary">
-<arg>MAIN</arg>
-<doc>Switches to browser window matching ``locator``.</doc>
-<status status="PASS" start="2025-05-16T15:08:36.746289" elapsed="0.017357"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-16T15:08:41.765071" level="INFO">Slept 5 seconds.</msg>
-<arg>5s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-16T15:08:36.763857" elapsed="5.001486"/>
-</kw>
-<status status="PASS" start="2025-05-16T15:08:36.745913" elapsed="5.019674"/>
-</kw>
-<kw name="verify the user is switched back to child window">
-<kw name="Switch Window" owner="SeleniumLibrary">
-<arg>title=Selenium</arg>
-<doc>Switches to browser window matching ``locator``.</doc>
-<status status="PASS" start="2025-05-16T15:08:41.766857" elapsed="0.102718"/>
-</kw>
-<kw name="Sleep" owner="BuiltIn">
-<msg time="2025-05-16T15:08:46.871767" level="INFO">Slept 5 seconds.</msg>
-<arg>5s</arg>
-<doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-05-16T15:08:41.869921" elapsed="5.002119"/>
-</kw>
+<kw name="Close Browser Session">
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-05-16T15:08:46.872458" elapsed="0.190515"/>
+<status status="PASS" start="2025-05-16T17:06:52.888481" elapsed="0.164609"/>
 </kw>
-<status status="PASS" start="2025-05-16T15:08:41.766164" elapsed="5.296969"/>
+<status status="PASS" start="2025-05-16T17:06:52.887770" elapsed="0.165583"/>
 </kw>
-<status status="PASS" start="2025-05-16T15:08:14.576922" elapsed="32.486689"/>
+<tag>Regression</tag>
+<tag>Smoke</tag>
+<status status="PASS" start="2025-05-16T17:06:39.564986" elapsed="13.489489"/>
 </test>
-<status status="PASS" start="2025-05-16T15:08:14.034917" elapsed="33.029825"/>
+<test id="s1-t2" name="Validate Successfull Login" line="18">
+<kw name="Open the browser with URL" owner="Resource">
+<kw name="Create Webdriver" owner="SeleniumLibrary">
+<msg time="2025-05-16T17:06:53.057666" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<arg>Chrome</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<status status="PASS" start="2025-05-16T17:06:53.057313" elapsed="1.987831"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2025-05-16T17:06:55.047150" level="INFO">Opening url 'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'</msg>
+<arg>${url}</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2025-05-16T17:06:55.046314" elapsed="4.450612"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-05-16T17:06:59.497415" elapsed="0.039483"/>
+</kw>
+<kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
+<arg>5</arg>
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<status status="PASS" start="2025-05-16T17:06:59.537130" elapsed="0.001472"/>
+</kw>
+<status status="PASS" start="2025-05-16T17:06:53.056638" elapsed="6.482130"/>
+</kw>
+<kw name="Fill the login form">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-05-16T17:06:59.540029" level="INFO">Typing text 'Admin' into text field 'css:input[name=username]'.</msg>
+<arg>css:input[name=username]</arg>
+<arg>${username}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-16T17:06:59.539728" elapsed="0.539183"/>
+</kw>
+<kw name="Input Password" owner="SeleniumLibrary">
+<msg time="2025-05-16T17:07:00.079439" level="INFO">Typing password into text field 'css:input[name=password]'.</msg>
+<msg time="2025-05-16T17:07:00.118092" level="INFO">Temporally setting log level to: NONE</msg>
+<arg>css:input[name=password]</arg>
+<arg>${password}</arg>
+<doc>Types the given password into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-16T17:07:00.079133" elapsed="0.122049"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-05-16T17:07:00.201602" level="INFO">Clicking button 'class:orangehrm-login-button'.</msg>
+<arg>class:orangehrm-login-button</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-16T17:07:00.201388" elapsed="0.101547"/>
+</kw>
+<arg>${valid_username}</arg>
+<arg>${valid_password}</arg>
+<status status="PASS" start="2025-05-16T17:06:59.539224" elapsed="0.763850"/>
+</kw>
+<kw name="Verify Dashboard page opens">
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<msg time="2025-05-16T17:07:00.303965" level="INFO">Verifying element 'css:.oxd-topbar-header-breadcrumb-module' contains exact text 'Dashboard'.</msg>
+<arg>${Dashboard_Text}</arg>
+<arg>Dashboard</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="PASS" start="2025-05-16T17:07:00.303718" elapsed="1.643834"/>
+</kw>
+<kw name="Page Should Contain Element" owner="SeleniumLibrary">
+<msg time="2025-05-16T17:07:01.973887" level="INFO">Current page contains element 'css:.oxd-topbar-header-breadcrumb-module'.</msg>
+<arg>${Dashboard_Text}</arg>
+<doc>Verifies that element ``locator`` is found on the current page.</doc>
+<status status="PASS" start="2025-05-16T17:07:01.947897" elapsed="0.026138"/>
+</kw>
+<status status="PASS" start="2025-05-16T17:07:00.303373" elapsed="1.670814"/>
+</kw>
+<kw name="Close Browser Session">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-05-16T17:07:01.974961" elapsed="0.144703"/>
+</kw>
+<status status="PASS" start="2025-05-16T17:07:01.974532" elapsed="0.145376"/>
+</kw>
+<tag>UIT</tag>
+<status status="PASS" start="2025-05-16T17:06:53.055600" elapsed="9.064917"/>
+</test>
+<doc>Tests to login to login Page</doc>
+<status status="PASS" start="2025-05-16T17:06:39.317597" elapsed="22.804343"/>
 </suite>
 <statistics>
 <total>
-<stat pass="1" fail="0" skip="0">All Tests</stat>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
+<stat pass="1" fail="0" skip="0">Regression</stat>
+<stat pass="1" fail="0" skip="0">Smoke</stat>
+<stat pass="1" fail="0" skip="0">UIT</stat>
 </tag>
 <suite>
-<stat name="test windowHandle" id="s1" pass="1" fail="0" skip="0">test windowHandle</stat>
+<stat name="Test Orangehrm" id="s1" pass="2" fail="0" skip="0">Test Orangehrm</stat>
 </suite>
 </statistics>
 <errors>
