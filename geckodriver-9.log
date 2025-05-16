@@ -1,0 +1,36 @@
+1747308282068	geckodriver	INFO	Listening on 127.0.0.1:55849
+1747308282096	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Applications/Firefox. ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/my/_xczdv396cj4lp0rs8vdvc340000gn/T/rust_mozprofile6DCClU"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1747308283267	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1747308284233	Marionette	INFO	Listening on port 55855
+WebDriver BiDi listening on ws://127.0.0.1:55850
+Read port: 55855
+1747308285357	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+2025-05-15 11:24:54.706 plugin-container[92894:1421842] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:24:54.706 plugin-container[92894:1421842] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 16:54:55.203 plugin-container[92882:1421409] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 16:54:55.205 plugin-container[92882:1421409] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 16:54:55.674 plugin-container[92882:1421409] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 16:54:55.674 plugin-container[92882:1421409] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 16:54:55.677 plugin-container[92882:1421411] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 16:54:55.677 plugin-container[92882:1421411] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 11:24:55.822 plugin-container[92894:1421842] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:24:55.822 plugin-container[92894:1421842] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 11:24:55.823 plugin-container[92894:1421844] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:24:55.823 plugin-container[92894:1421844] nil host used in call to allowsAnyHTTPSCertificateForHost:
+DevTools listening on ws://127.0.0.1:55850/devtools/browser/65fb0b55-db8d-40eb-bc5f-d304605921af
+JavaScript error: https://demo.automationtesting.in/angcontroller.js, line 856: TypeError: scope.menucontainer is undefined
+JavaScript warning: https://api.b2c.com/api/init-67837llrmed7abvew8my.js?adID=607887417&advertiserID=5481501&campaignID=31418751&creativeID=230650165&placementID=415562846&environment=j&siteid=9008513&country=ct=IN&st=&city=7295&dma=0&zp=641001&bw=4&match=0&site=N339201.4066079OMDPROGRAMMATICUA&landingpage=https://www.visitdubai.com/en/travel-to-dubai/in%3Futm_source%3Dprogrammatic%26utm_medium%3Ddisplay%26utm_campaign%3Dseasonalaonapac%26utm_term%3Dind-en_genericfamilyseta2%26utm_content%3Dconsideration_banner160x600_OPXInmarketAll%26dclid%3D%25edclid!%26gad_source%3D7, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2025-05-15 11:25:05.463 plugin-container[92900:1422128] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:25:05.464 plugin-container[92900:1422128] nil host used in call to allowsAnyHTTPSCertificateForHost:
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ou57QlkwlmW6ugGy6aTa8qq11a_NwGzUpy3FuN33kMs.js line 2 > eval line 5340 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2025-05-15 11:25:06.130 plugin-container[92900:1422128] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:25:06.130 plugin-container[92900:1422128] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 11:25:06.131 plugin-container[92900:1422139] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:25:06.131 plugin-container[92900:1422139] nil host used in call to allowsAnyHTTPSCertificateForHost:
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ou57QlkwlmW6ugGy6aTa8qq11a_NwGzUpy3FuN33kMs.js line 2 > eval line 4019 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ou57QlkwlmW6ugGy6aTa8qq11a_NwGzUpy3FuN33kMs.js line 2 > eval line 2388 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.

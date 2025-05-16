@@ -1,27 +1,51 @@
-1747293951862	geckodriver	INFO	Listening on 127.0.0.1:52255
-1747293951883	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Applications/Firefox. ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/my/_xczdv396cj4lp0rs8vdvc340000gn/T/rust_mozprofilepweXnv"
-*** You are running in headless mode.
+1747307887772	geckodriver	INFO	Listening on 127.0.0.1:55672
+1747307887801	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Applications/Firefox. ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/my/_xczdv396cj4lp0rs8vdvc340000gn/T/rust_mozprofilecvW7rR"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1747293952405	Marionette	INFO	Marionette enabled
+1747307889078	Marionette	INFO	Marionette enabled
 console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
-1747293953115	Marionette	INFO	Listening on port 52261
-2025-05-15 12:55:53.141 plugin-container[85077:1304706] nil host used in call to allowsSpecificHTTPSCertificateForHost
-2025-05-15 12:55:53.142 plugin-container[85077:1304706] nil host used in call to allowsAnyHTTPSCertificateForHost:
-WebDriver BiDi listening on ws://127.0.0.1:52256
-2025-05-15 12:55:53.151 plugin-container[85077:1304706] nil host used in call to allowsSpecificHTTPSCertificateForHost
-2025-05-15 12:55:53.151 plugin-container[85077:1304706] nil host used in call to allowsAnyHTTPSCertificateForHost:
-2025-05-15 12:55:53.152 plugin-container[85077:1304718] nil host used in call to allowsSpecificHTTPSCertificateForHost
-2025-05-15 12:55:53.152 plugin-container[85077:1304718] nil host used in call to allowsAnyHTTPSCertificateForHost:
-Read port: 52261
-1747293953566	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-DevTools listening on ws://127.0.0.1:52256/devtools/browser/d444580d-a248-4130-909e-5bd0fe21e29e
-2025-05-15 07:25:55.797 plugin-container[85083:1304880] nil host used in call to allowsSpecificHTTPSCertificateForHost
-2025-05-15 07:25:55.797 plugin-container[85083:1304880] nil host used in call to allowsAnyHTTPSCertificateForHost:
-2025-05-15 07:25:55.805 plugin-container[85083:1304880] nil host used in call to allowsSpecificHTTPSCertificateForHost
-2025-05-15 07:25:55.805 plugin-container[85083:1304880] nil host used in call to allowsAnyHTTPSCertificateForHost:
-2025-05-15 07:25:55.805 plugin-container[85083:1304888] nil host used in call to allowsSpecificHTTPSCertificateForHost
-2025-05-15 07:25:55.805 plugin-container[85083:1304888] nil host used in call to allowsAnyHTTPSCertificateForHost:
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://the-internet.herokuapp.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://the-internet.herokuapp.com."
+1747307890177	Marionette	INFO	Listening on port 55679
+Read port: 55679
+WebDriver BiDi listening on ws://127.0.0.1:55673
+1747307890419	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2025-05-15 16:48:10.457 plugin-container[92393:1415869] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 16:48:10.461 plugin-container[92393:1415869] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 16:48:10.560 plugin-container[92393:1415869] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 16:48:10.560 plugin-container[92393:1415869] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 16:48:10.561 plugin-container[92393:1415918] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 16:48:10.561 plugin-container[92393:1415918] nil host used in call to allowsAnyHTTPSCertificateForHost:
+DevTools listening on ws://127.0.0.1:55673/devtools/browser/5eeab209-76aa-4617-9359-fb5c804655c1
+2025-05-15 11:18:15.769 plugin-container[92401:1416133] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:18:15.770 plugin-container[92401:1416133] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 11:18:15.780 plugin-container[92401:1416133] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:18:15.780 plugin-container[92401:1416133] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 11:18:15.781 plugin-container[92401:1416193] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:18:15.781 plugin-container[92401:1416193] nil host used in call to allowsAnyHTTPSCertificateForHost:
+JavaScript error: https://demo.automationtesting.in/angcontroller.js, line 856: TypeError: scope.menucontainer is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ou57QlkwlmW6ugGy6aTa8qq11a_NwGzUpy3FuN33kMs.js line 2 > eval line 225 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2025-05-15 11:18:23.917 plugin-container[92410:1416449] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:18:23.917 plugin-container[92410:1416449] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 11:18:23.924 plugin-container[92410:1416449] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:18:23.924 plugin-container[92410:1416449] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 11:18:23.924 plugin-container[92410:1416450] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:18:23.924 plugin-container[92410:1416450] nil host used in call to allowsAnyHTTPSCertificateForHost:
+JavaScript warning: https://pagead2.googlesyndication.com/bg/5L6E3nSu4rsG1j8Nh7eWMguidMBIVKrfFD6rINfFGoo.js line 2 > eval line 7756 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://fw.adsafeprotected.com/rjss/st/2445193/87257127/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020958362&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22476797973&bidurl=https://demo.automationtesting.in/Register.html&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0h1Ovo23skTkMgLJhIWG_q7, line 1238: Script terminated by timeout at:
+I@https://fw.adsafeprotected.com/rjss/st/2445193/87257127/skeleton.js?bundleId=${BUNDLE_ID}&ias_dspID=3&ias_campId=1020958362&ias_pubId=pub-9173866185064071&ias_chanId=1&ias_placementId=22476797973&bidurl=https://demo.automationtesting.in/Register.html&ias_dealId=&ias_xappb=&adsafe_par&ias_impId=v4~~ABAjH0h1Ovo23skTkMgLJhIWG_q7:1238:195091
+
+JavaScript warning: https://c.bannerflow.net/scripts/animated-creative.7bbfa63b587693e08e77.js, line 1: Script terminated by timeout at:
+kr@https://c.bannerflow.net/scripts/animated-creative.7bbfa63b587693e08e77.js:1:129416
+fh@https://c.bannerflow.net/scripts/animated-creative.7bbfa63b587693e08e77.js:1:144743
+uh@https://c.bannerflow.net/scripts/animated-creative.7bbfa63b587693e08e77.js:1:138509
+oh@https://c.bannerflow.net/scripts/animated-creative.7bbfa63b587693e08e77.js:1:137871
+lt/<@https://c.bannerflow.net/scripts/animated-creative.7bbfa63b587693e08e77.js:1:141964
+T@https://c.bannerflow.net/scripts/animated-creative.7bbfa63b587693e08e77.js:1:24491
+I@https://c.bannerflow.net/scripts/animated-creative.7bbfa63b587693e08e77.js:1:24205
+lt@https://c.bannerflow.net/scripts/animated-creative.7bbfa63b587693e08e77.js:1:141918
+at@https://c.bannerflow.net/scripts/animated-creative.7bbfa63b587693e08e77.js:1:53845
+et@https://c.bannerflow.net/scripts/animated-creative.7bbfa63b587693e08e77.js:1:53929
+z/this.V@https://c.bannerflow.net/scripts/animated-creative.7bbfa63b587693e08e77.js:1:52250
+
+1747307979744	Marionette	INFO	Stopped listening on port 55679
+!!! error running onStopped callback: TypeError: callback is not a function
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.

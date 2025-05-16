@@ -1,26 +1,34 @@
-1747293844051	geckodriver	INFO	Listening on 127.0.0.1:52151
-1747293844150	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Applications/Firefox. ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/my/_xczdv396cj4lp0rs8vdvc340000gn/T/rust_mozprofileno4kLX"
+1747307733828	geckodriver	INFO	Listening on 127.0.0.1:55489
+1747307733855	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Applications/Firefox. ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/my/_xczdv396cj4lp0rs8vdvc340000gn/T/rust_mozprofile6jzBUw"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1747293844777	Marionette	INFO	Marionette enabled
+1747307734816	Marionette	INFO	Marionette enabled
 console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
-1747293845530	Marionette	INFO	Listening on port 52161
-2025-05-15 12:54:05.558 plugin-container[84877:1302243] nil host used in call to allowsSpecificHTTPSCertificateForHost
-2025-05-15 12:54:05.559 plugin-container[84877:1302243] nil host used in call to allowsAnyHTTPSCertificateForHost:
-WebDriver BiDi listening on ws://127.0.0.1:52152
-2025-05-15 12:54:05.567 plugin-container[84877:1302243] nil host used in call to allowsSpecificHTTPSCertificateForHost
-2025-05-15 12:54:05.567 plugin-container[84877:1302243] nil host used in call to allowsAnyHTTPSCertificateForHost:
-2025-05-15 12:54:05.568 plugin-container[84877:1302253] nil host used in call to allowsSpecificHTTPSCertificateForHost
-2025-05-15 12:54:05.568 plugin-container[84877:1302253] nil host used in call to allowsAnyHTTPSCertificateForHost:
-Read port: 52161
-1747293846092	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:52152/devtools/browser/8f6068be-141d-4ab3-b452-d96a4f2be35a
-2025-05-15 07:24:09.326 plugin-container[84883:1302429] nil host used in call to allowsSpecificHTTPSCertificateForHost
-2025-05-15 07:24:09.326 plugin-container[84883:1302429] nil host used in call to allowsAnyHTTPSCertificateForHost:
-2025-05-15 07:24:09.339 plugin-container[84883:1302429] nil host used in call to allowsSpecificHTTPSCertificateForHost
-2025-05-15 07:24:09.339 plugin-container[84883:1302429] nil host used in call to allowsAnyHTTPSCertificateForHost:
-2025-05-15 07:24:09.340 plugin-container[84883:1302454] nil host used in call to allowsSpecificHTTPSCertificateForHost
-2025-05-15 07:24:09.340 plugin-container[84883:1302454] nil host used in call to allowsAnyHTTPSCertificateForHost:
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://the-internet.herokuapp.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://the-internet.herokuapp.com."
-1747293860743	Marionette	INFO	Stopped listening on port 52161
+1747307735756	Marionette	INFO	Listening on port 55495
+WebDriver BiDi listening on ws://127.0.0.1:55490
+Read port: 55495
+2025-05-15 16:45:35.845 plugin-container[92147:1412380] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 16:45:35.846 plugin-container[92147:1412380] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 16:45:35.857 plugin-container[92147:1412380] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 16:45:35.857 plugin-container[92147:1412380] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 16:45:35.857 plugin-container[92147:1412383] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 16:45:35.857 plugin-container[92147:1412383] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1747307736408	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55490/devtools/browser/ffd2d96c-fc43-463c-a599-59dc4f49ad13
+2025-05-15 11:15:43.555 plugin-container[92154:1412611] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:15:43.556 plugin-container[92154:1412611] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 11:15:43.569 plugin-container[92154:1412611] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:15:43.569 plugin-container[92154:1412611] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 11:15:43.570 plugin-container[92154:1412700] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:15:43.570 plugin-container[92154:1412700] nil host used in call to allowsAnyHTTPSCertificateForHost:
+JavaScript error: https://demo.automationtesting.in/angcontroller.js, line 856: TypeError: scope.menucontainer is undefined
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ou57QlkwlmW6ugGy6aTa8qq11a_NwGzUpy3FuN33kMs.js line 2 > eval line 376 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2025-05-15 11:15:49.568 plugin-container[92160:1412832] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:15:49.575 plugin-container[92160:1412832] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 11:15:49.594 plugin-container[92160:1412832] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:15:49.595 plugin-container[92160:1412832] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 11:15:49.596 plugin-container[92160:1412831] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:15:49.596 plugin-container[92160:1412831] nil host used in call to allowsAnyHTTPSCertificateForHost:
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ou57QlkwlmW6ugGy6aTa8qq11a_NwGzUpy3FuN33kMs.js line 2 > eval line 3958 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1747307783503	Marionette	INFO	Stopped listening on port 55495
+!!! error running onStopped callback: TypeError: callback is not a function

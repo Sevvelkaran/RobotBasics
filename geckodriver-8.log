@@ -1,0 +1,25 @@
+1747308241547	geckodriver	INFO	Listening on 127.0.0.1:55813
+1747308241608	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Applications/Firefox. ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/my/_xczdv396cj4lp0rs8vdvc340000gn/T/rust_mozprofilerk5cPb"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1747308242513	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+2025-05-15 16:54:03.473 plugin-container[92809:1420379] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 16:54:03.473 plugin-container[92809:1420379] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1747308243559	Marionette	INFO	Listening on port 55819
+Read port: 55819
+WebDriver BiDi listening on ws://127.0.0.1:55814
+2025-05-15 16:54:03.731 plugin-container[92809:1420379] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 16:54:03.731 plugin-container[92809:1420379] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 16:54:03.734 plugin-container[92809:1420383] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 16:54:03.734 plugin-container[92809:1420383] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1747308244149	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+2025-05-15 11:24:07.654 plugin-container[92818:1420628] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:24:07.655 plugin-container[92818:1420628] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 11:24:07.665 plugin-container[92818:1420628] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:24:07.665 plugin-container[92818:1420628] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 11:24:07.665 plugin-container[92818:1420645] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:24:07.665 plugin-container[92818:1420645] nil host used in call to allowsAnyHTTPSCertificateForHost:
+DevTools listening on ws://127.0.0.1:55814/devtools/browser/e1ffb4c9-37ae-49bc-930b-af7289a0db8c

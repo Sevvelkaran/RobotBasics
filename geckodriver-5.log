@@ -1,42 +1,30 @@
-1747293909544	geckodriver	INFO	Listening on 127.0.0.1:52216
-1747293909629	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Applications/Firefox. ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/my/_xczdv396cj4lp0rs8vdvc340000gn/T/rust_mozprofileVLyi7D"
+1747307843061	geckodriver	INFO	Listening on 127.0.0.1:55620
+1747307843092	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Applications/Firefox. ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/my/_xczdv396cj4lp0rs8vdvc340000gn/T/rust_mozprofileUJ18S4"
 console.warn: services.settings: Ignoring preference override of remote settings server
 console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
-1747293910278	Marionette	INFO	Marionette enabled
+1747307843986	Marionette	INFO	Marionette enabled
 console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
-1747293910951	Marionette	INFO	Listening on port 52226
-Read port: 52226
-WebDriver BiDi listening on ws://127.0.0.1:52217
-2025-05-15 12:55:11.161 plugin-container[85013:1303868] nil host used in call to allowsSpecificHTTPSCertificateForHost
-2025-05-15 12:55:11.162 plugin-container[85013:1303868] nil host used in call to allowsAnyHTTPSCertificateForHost:
-2025-05-15 12:55:11.167 plugin-container[85013:1303868] nil host used in call to allowsSpecificHTTPSCertificateForHost
-2025-05-15 12:55:11.167 plugin-container[85013:1303868] nil host used in call to allowsAnyHTTPSCertificateForHost:
-2025-05-15 12:55:11.167 plugin-container[85013:1303875] nil host used in call to allowsSpecificHTTPSCertificateForHost
-2025-05-15 12:55:11.168 plugin-container[85013:1303875] nil host used in call to allowsAnyHTTPSCertificateForHost:
-1747293911359	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-DevTools listening on ws://127.0.0.1:52217/devtools/browser/4692588f-f598-4644-a728-a73852cec196
-2025-05-15 07:25:16.167 plugin-container[85026:1304124] nil host used in call to allowsSpecificHTTPSCertificateForHost
-2025-05-15 07:25:16.168 plugin-container[85026:1304124] nil host used in call to allowsAnyHTTPSCertificateForHost:
-2025-05-15 07:25:16.178 plugin-container[85026:1304124] nil host used in call to allowsSpecificHTTPSCertificateForHost
-2025-05-15 07:25:16.178 plugin-container[85026:1304124] nil host used in call to allowsAnyHTTPSCertificateForHost:
-2025-05-15 07:25:16.179 plugin-container[85026:1304127] nil host used in call to allowsSpecificHTTPSCertificateForHost
-2025-05-15 07:25:16.179 plugin-container[85026:1304127] nil host used in call to allowsAnyHTTPSCertificateForHost:
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://the-internet.herokuapp.com."
-console.warn: LoginRecipes: "Falling back to a synchronous message for: https://the-internet.herokuapp.com."
-JavaScript error: resource:///modules/sessionstore/SessionStore.sys.mjs, line 4193: TypeError: winData is undefined
-1747293929953	Marionette	INFO	Stopped listening on port 52226
-console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
-console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
-console.error: services.settings: 
-Object
-  - prototype Object
-    - columnNumber = 0
-    - data = null
-    - filename = resource://gre/modules/ServiceRequest.sys.mjs
-    - lineNumber = 126
-    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":24,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":23,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":23,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":23,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":21,"lineNumber":625,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":21,"lineNumber":477,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}}
-    - message = 
-    - name = 
-    - result = 2152071198
-    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28|
-  - prototype Object
+1747307844890	Marionette	INFO	Listening on port 55626
+Read port: 55626
+WebDriver BiDi listening on ws://127.0.0.1:55621
+2025-05-15 16:47:24.970 plugin-container[92331:1414914] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 16:47:24.972 plugin-container[92331:1414914] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 16:47:24.981 plugin-container[92331:1414914] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 16:47:24.981 plugin-container[92331:1414914] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 16:47:24.982 plugin-container[92331:1414911] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 16:47:24.982 plugin-container[92331:1414911] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1747307845075	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:55621/devtools/browser/e88a9e81-8bfe-425b-8679-4408e38548f7
+2025-05-15 11:17:29.252 plugin-container[92337:1415122] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:17:29.252 plugin-container[92337:1415122] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 11:17:29.260 plugin-container[92337:1415122] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:17:29.260 plugin-container[92337:1415122] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 11:17:29.261 plugin-container[92337:1415137] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:17:29.261 plugin-container[92337:1415137] nil host used in call to allowsAnyHTTPSCertificateForHost:
+JavaScript warning: https://pagead2.googlesyndication.com/bg/ou57QlkwlmW6ugGy6aTa8qq11a_NwGzUpy3FuN33kMs.js line 2 > eval line 3882 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2025-05-15 11:17:34.456 plugin-container[92344:1415316] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:17:34.457 plugin-container[92344:1415316] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 11:17:34.464 plugin-container[92344:1415316] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:17:34.464 plugin-container[92344:1415316] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-15 11:17:34.465 plugin-container[92344:1415317] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-15 11:17:34.465 plugin-container[92344:1415317] nil host used in call to allowsAnyHTTPSCertificateForHost:
