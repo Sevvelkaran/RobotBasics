@@ -1,64 +1,145 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.2.2 (Python 3.13.3 on darwin)" generated="2025-05-16T14:23:20.126310" rpa="false" schemaversion="5">
-<suite id="s1" name="Test Dropdown" source="/Users/sevvelkaranpalanivetrivel/Desktop/Expleo_Training /ROBOT_BASICS/Tests/test_dropdown.robot">
-<test id="s1-t1" name="Select Options in Dropdown" line="5">
-<kw name="Open the Browser With URL">
-<kw name="Create Webdriver" owner="SeleniumLibrary">
-<msg time="2025-05-16T14:23:20.677028" level="INFO">Creating an instance of the Firefox WebDriver.</msg>
-<arg>Firefox</arg>
-<doc>Creates an instance of Selenium WebDriver.</doc>
-<status status="PASS" start="2025-05-16T14:23:20.676809" elapsed="5.191246"/>
-</kw>
-<kw name="Go To" owner="SeleniumLibrary">
-<msg time="2025-05-16T14:23:25.869350" level="INFO">Opening url 'https://demo.automationtesting.in/Register.html'</msg>
-<arg>https://demo.automationtesting.in/Register.html</arg>
-<doc>Navigates the current browser window to the provided ``url``.</doc>
-<status status="PASS" start="2025-05-16T14:23:25.868921" elapsed="5.963606"/>
+<robot generator="Robot 7.2.2 (Python 3.13.3 on darwin)" generated="2025-05-16T15:08:14.031431" rpa="false" schemaversion="5">
+<suite id="s1" name="test windowHandle" source="/Users/sevvelkaranpalanivetrivel/Desktop/Expleo_Training /ROBOT_BASICS/Tests/test_windowHandle.robot">
+<test id="s1-t1" name="Handling multiple windows" line="6">
+<kw name="open the browser with url">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-05-16T15:08:14.578996" level="INFO">Opening browser 'chrome' to base url 'https://demo.automationtesting.in/Windows.html'.</msg>
+<arg>https://demo.automationtesting.in/Windows.html</arg>
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-05-16T15:08:14.578710" elapsed="5.221686"/>
 </kw>
 <kw name="Maximize Browser Window" owner="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" start="2025-05-16T14:23:31.833265" elapsed="0.478581"/>
+<status status="PASS" start="2025-05-16T15:08:19.801570" elapsed="4.171578"/>
 </kw>
-<kw name="Set Selenium Implicit Wait" owner="SeleniumLibrary">
-<arg>6s</arg>
+<kw name="Set Browser Implicit Wait" owner="SeleniumLibrary">
+<arg>5</arg>
 <doc>Sets the implicit wait value used by Selenium.</doc>
-<status status="PASS" start="2025-05-16T14:23:32.312247" elapsed="0.005734"/>
+<status status="PASS" start="2025-05-16T15:08:23.973519" elapsed="0.002239"/>
 </kw>
-<status status="PASS" start="2025-05-16T14:23:20.675911" elapsed="11.642279"/>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-16T15:08:28.977531" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-16T15:08:23.976186" elapsed="5.001711"/>
 </kw>
-<kw name="Select the dropdown options APIs with Value">
-<kw name="Select From List By Value" owner="SeleniumLibrary">
-<msg time="2025-05-16T14:23:32.320091" level="INFO">Selecting options from selection list 'id:Skills' by value APIs.</msg>
-<arg>id:Skills</arg>
-<arg>APIs</arg>
-<doc>Selects options from selection list ``locator`` by ``values``.</doc>
-<status status="PASS" start="2025-05-16T14:23:32.319571" elapsed="0.380891"/>
+<status status="PASS" start="2025-05-16T15:08:14.577805" elapsed="14.400883"/>
 </kw>
-<status status="PASS" start="2025-05-16T14:23:32.319068" elapsed="0.381546"/>
+<kw name="Select the button to switch to child window">
+<kw name="Get Window Handles" owner="SeleniumLibrary">
+<msg time="2025-05-16T15:08:28.995388" level="INFO">${ParentWindow} = ['8B47B7117BAC0B01EC85A9503D0FD9A9']</msg>
+<var>${ParentWindow}</var>
+<doc>Returns all child window handles of the selected browser as a list.</doc>
+<status status="PASS" start="2025-05-16T15:08:28.984383" elapsed="0.011364"/>
 </kw>
-<kw name="Select the dropdown options with Index">
-<kw name="Select From List By Index" owner="SeleniumLibrary">
-<msg time="2025-05-16T14:23:32.701975" level="INFO">Selecting options from selection list 'id:Skills' by index 43.</msg>
-<arg>id:Skills</arg>
-<arg>43</arg>
-<doc>Selects options from selection list ``locator`` by ``indexes``.</doc>
-<status status="PASS" start="2025-05-16T14:23:32.701735" elapsed="0.601573"/>
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-05-16T15:08:29.000174" level="INFO">Clicking element 'xpath=//div[@class='tabpane pullleft']/ul/li[2]/a'.</msg>
+<arg>xpath=//div[@class='tabpane pullleft']/ul/li[2]/a</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-16T15:08:28.996246" elapsed="0.115795"/>
 </kw>
-<status status="PASS" start="2025-05-16T14:23:32.701294" elapsed="0.602156"/>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-05-16T15:08:29.112769" level="INFO">Clicking button 'css:.btn-primary'.</msg>
+<arg>css:.btn-primary</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-05-16T15:08:29.112311" elapsed="0.343880"/>
 </kw>
-<kw name="Select the dropdown options with CSS by label">
-<kw name="Select From List By Label" owner="SeleniumLibrary">
-<msg time="2025-05-16T14:23:33.304461" level="INFO">Selecting options from selection list 'id:Skills' by label CSS.</msg>
-<arg>id:Skills</arg>
-<arg>CSS</arg>
-<doc>Selects options from selection list ``locator`` by ``labels``.</doc>
-<status status="PASS" start="2025-05-16T14:23:33.304236" elapsed="0.240243"/>
+<kw name="Get Window Handles" owner="SeleniumLibrary">
+<msg time="2025-05-16T15:08:29.471031" level="INFO">${Windows} = ['8B47B7117BAC0B01EC85A9503D0FD9A9', 'A8006117C02332BEB4B2E51758AB3778']</msg>
+<var>${Windows}</var>
+<doc>Returns all child window handles of the selected browser as a list.</doc>
+<status status="PASS" start="2025-05-16T15:08:29.456554" elapsed="0.014563"/>
 </kw>
-<status status="PASS" start="2025-05-16T14:23:33.303862" elapsed="0.240767"/>
+<for flavor="IN">
+<iter>
+<kw name="Switch Window" owner="SeleniumLibrary">
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" start="2025-05-16T15:08:29.472485" elapsed="0.016229"/>
 </kw>
-<status status="PASS" start="2025-05-16T14:23:20.675032" elapsed="12.869869"/>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${window}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-16T15:08:29.489242" elapsed="0.001079"/>
+</kw>
+<var name="${window}">['8B47B7117BAC0B01EC85A9503D0FD9A9', 'A8006117C02332BEB4B2E51758AB3778']</var>
+<status status="PASS" start="2025-05-16T15:08:29.472150" elapsed="0.018374"/>
+</iter>
+<var>${window}</var>
+<value>${Windows}</value>
+<status status="PASS" start="2025-05-16T15:08:29.471485" elapsed="0.019294"/>
+</for>
+<kw name="Get Length" owner="BuiltIn">
+<msg time="2025-05-16T15:08:29.491746" level="INFO">Length is 2.</msg>
+<msg time="2025-05-16T15:08:29.491994" level="INFO">${count} = 2</msg>
+<var>${count}</var>
+<arg>${Windows}</arg>
+<doc>Returns and logs the length of the given item as an integer.</doc>
+<status status="PASS" start="2025-05-16T15:08:29.491306" elapsed="0.000760"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>${count}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-05-16T15:08:29.494465" elapsed="0.001073"/>
+</kw>
+<status status="PASS" start="2025-05-16T15:08:28.982090" elapsed="0.513754"/>
+</kw>
+<kw name="verify the child window is opened">
+<kw name="Switch Window" owner="SeleniumLibrary">
+<arg>NEW</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" start="2025-05-16T15:08:29.498209" elapsed="0.064468"/>
+</kw>
+<kw name="Page Should Contain" owner="SeleniumLibrary">
+<msg time="2025-05-16T15:08:31.743558" level="INFO">Current page contains text 'Selenium automates browsers'.</msg>
+<arg>Selenium automates browsers</arg>
+<doc>Verifies that current page contains ``text``.</doc>
+<status status="PASS" start="2025-05-16T15:08:29.563740" elapsed="2.180209"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-16T15:08:36.745226" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-16T15:08:31.744446" elapsed="5.000981"/>
+</kw>
+<status status="PASS" start="2025-05-16T15:08:29.496530" elapsed="7.249045"/>
+</kw>
+<kw name="verify teh user is switched to parent window">
+<kw name="Switch Window" owner="SeleniumLibrary">
+<arg>MAIN</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" start="2025-05-16T15:08:36.746289" elapsed="0.017357"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-16T15:08:41.765071" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-16T15:08:36.763857" elapsed="5.001486"/>
+</kw>
+<status status="PASS" start="2025-05-16T15:08:36.745913" elapsed="5.019674"/>
+</kw>
+<kw name="verify the user is switched back to child window">
+<kw name="Switch Window" owner="SeleniumLibrary">
+<arg>title=Selenium</arg>
+<doc>Switches to browser window matching ``locator``.</doc>
+<status status="PASS" start="2025-05-16T15:08:41.766857" elapsed="0.102718"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-05-16T15:08:46.871767" level="INFO">Slept 5 seconds.</msg>
+<arg>5s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-05-16T15:08:41.869921" elapsed="5.002119"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-05-16T15:08:46.872458" elapsed="0.190515"/>
+</kw>
+<status status="PASS" start="2025-05-16T15:08:41.766164" elapsed="5.296969"/>
+</kw>
+<status status="PASS" start="2025-05-16T15:08:14.576922" elapsed="32.486689"/>
 </test>
-<status status="PASS" start="2025-05-16T14:23:20.129365" elapsed="13.416289"/>
+<status status="PASS" start="2025-05-16T15:08:14.034917" elapsed="33.029825"/>
 </suite>
 <statistics>
 <total>
@@ -67,7 +148,7 @@
 <tag>
 </tag>
 <suite>
-<stat name="Test Dropdown" id="s1" pass="1" fail="0" skip="0">Test Dropdown</stat>
+<stat name="test windowHandle" id="s1" pass="1" fail="0" skip="0">test windowHandle</stat>
 </suite>
 </statistics>
 <errors>

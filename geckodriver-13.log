@@ -1,0 +1,37 @@
+1747387204624	geckodriver	INFO	Listening on 127.0.0.1:64367
+1747387204660	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/Applications/Firefox. ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/my/_xczdv396cj4lp0rs8vdvc340000gn/T/rust_mozprofilefZg5ju"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1747387205261	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1747387205890	Marionette	INFO	Listening on port 64375
+WebDriver BiDi listening on ws://127.0.0.1:64368
+Read port: 64375
+2025-05-16 14:50:05.988 plugin-container[23093:1680779] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-16 14:50:05.988 plugin-container[23093:1680779] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-16 14:50:06.034 plugin-container[23093:1680779] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-16 14:50:06.034 plugin-container[23093:1680779] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-16 14:50:06.035 plugin-container[23093:1680800] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-16 14:50:06.035 plugin-container[23093:1680800] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1747387206369	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:64368/devtools/browser/e418fdf9-e032-41f0-b17d-525286cb59e4
+2025-05-16 09:20:08.614 plugin-container[23101:1680962] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-16 09:20:08.614 plugin-container[23101:1680962] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-16 09:20:08.622 plugin-container[23101:1680962] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-16 09:20:08.622 plugin-container[23101:1680962] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-16 09:20:08.622 plugin-container[23101:1680988] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-16 09:20:08.623 plugin-container[23101:1680988] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-16 09:20:21.547 plugin-container[23107:1681250] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-16 09:20:21.549 plugin-container[23107:1681250] nil host used in call to allowsAnyHTTPSCertificateForHost:
+JavaScript warning: https://api.b2c.com/api/init-67837llrmed7abvew8my.js?adID=607887480&advertiserID=5481501&campaignID=31418751&creativeID=230651836&placementID=415562882&environment=j&siteid=9008513&country=ct=IN&st=&city=7295&dma=0&zp=641006&bw=4&match=0&site=N339201.4066079OMDPROGRAMMATICUA&landingpage=https://www.visitdubai.com/en/travel-to-dubai/in%3Futm_source%3Dprogrammatic%26utm_medium%3Ddisplay%26utm_campaign%3Dseasonalaonapac%26utm_term%3Dind-en_genericfamilyseta3%26utm_content%3Dconsideration_banner300x250_OPXInmarketAll%26dclid%3D%25edclid!%26gad_source%3D7, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+2025-05-16 09:20:21.557 plugin-container[23107:1681250] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-16 09:20:21.557 plugin-container[23107:1681250] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2025-05-16 09:20:21.558 plugin-container[23107:1681251] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2025-05-16 09:20:21.558 plugin-container[23107:1681251] nil host used in call to allowsAnyHTTPSCertificateForHost:
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jWdf2uZZyviLdXMzWRtWCMj-mXBnYgbcEAUFjv8jhbo.js line 2 > eval line 919 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jWdf2uZZyviLdXMzWRtWCMj-mXBnYgbcEAUFjv8jhbo.js line 2 > eval line 3633 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jWdf2uZZyviLdXMzWRtWCMj-mXBnYgbcEAUFjv8jhbo.js line 2 > eval line 1233 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jWdf2uZZyviLdXMzWRtWCMj-mXBnYgbcEAUFjv8jhbo.js line 2 > eval line 2609 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/jWdf2uZZyviLdXMzWRtWCMj-mXBnYgbcEAUFjv8jhbo.js line 2 > eval line 3732 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
